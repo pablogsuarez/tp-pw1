@@ -1,0 +1,52 @@
+h1,
+section > div {
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.formulario {
+  width: 40%;
+  background-color: var(--oscuro1);
+  padding: 30px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--fondo);
+  box-shadow: 7px 13px 37px #000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.formulario h4 {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+.controls {
+  width: 100%;
+  background: var(--oscuro2);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid --claro2;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-size: 18px;
+  color: var(--fondo);
+}
+.botons {
+  width: 100%;
+  background: var(--alernativo1);
+  border: none;
+  padding: 20px;
+  color: var(--fondo);
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.botons:hover {
+  background: var(--alternativo2);
+}

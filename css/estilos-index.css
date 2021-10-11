@@ -1,0 +1,318 @@
+/* Fuente del sitio */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Colores de base */
+:root {
+  /* --fondo: #e3e6ff;
+  --oscuro1: #142691;
+  --oscuro2: ;
+  --claro1: #ebf5ff;
+  --claro2: #0066ff;
+  --alternativo1: #474132;
+  --alternativo2: #da8626; */
+
+  --fondo: #ffffff;
+  --oscuro1: #022b3a;
+  --oscuro2: #1f7a8c;
+  --claro1: #bfdbf7;
+  --claro2: #e1e5f2;
+  --alernativo1: #9f2525;
+  --alternativo2: #910b0b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--fondo);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--oscuro1);
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+}
+
+.header-icon i {
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--oscuro1);
+  color: #fff;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* height: 150px; */
+  padding: 0px 50px;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer p,
+footer a {
+  padding: 10px 5px;
+}
+
+footer a,
+.header-icon a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover,
+.header-icon a:hover {
+  color: var(--oscuro2);
+}
+
+h2 {
+  text-align: center;
+  padding: 10px 0px;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+iframe {
+  border-radius: 10px;
+  border: 0px;
+  width: 200px;
+  height: auto;
+}
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+
+.select {
+  width: 400px;
+  /* height: 30px; */
+  padding: 10px;
+  display: block;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.label {
+  display: block;
+  padding: 10px 0px;
+}
+
+input {
+  border: 0px;
+  /* height: 30px; */
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+p,
+label {
+  padding: 5px 0px;
+}
+
+#menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--claro2);
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid var(--claro1);
+  border-bottom: 2px solid var(--claro1);
+}
+
+#menu ul li {
+  font-weight: bold;
+  list-style: none;
+  padding: 10px 5px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+#menu ul li:hover {
+  background-color: var(--claro1);
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: var(--oscuro2);
+}
+
+/* Para poner el logo y al lado el texto */
+#logo-img {
+  display: flex;
+  align-items: center;
+}
+
+#carrousel {
+  width: 100%;
+  height: 82vh;
+  object-fit: cover;
+}
+
+#sedes {
+  background-color: var(--fondo);
+}
+
+#inscribite {
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid var(--claro1);
+  background-color: var(--claro2);
+}
+
+.sedes-inscripcion {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--claro2);
+}
+
+.sedes-inscripcion article div {
+  text-align: center;
+  /* padding: 10px; */
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.sede {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  border: 1px #000 solid;
+  border-radius: 15px;
+}
+
+.sede:hover {
+  /* opacity: 0.5;
+  background: linear-gradient(
+    0deg,
+    rgba(31, 122, 140, 1) 0%,
+    rgba(255, 255, 255, 0.4514005431274072) 100%
+  ); */
+  opacity: 0.6;
+}
+.sede-fondo1 {
+  background-image: url(../img/img1.jpg);
+  /* background-size: cover; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sede-fondo2 {
+  background-image: url(../img/img2.jpg);
+  /* background-size: cover;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sede-fondo3 {
+  background-image: url(../img/img3.jpg);
+  /* background-size: cover;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sede-fondo4 {
+  background-image: url(../img/img4.jpg);
+  /* background-size: cover; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sede p {
+  background-color: var(--oscuro2);
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  text-align: end;
+  padding-right: 20px;
+  /* padding: 5px 5px 5px 70px; */
+  width: 75%;
+  border-radius: 25px 0 0 25px;
+  font-weight: bold;
+  color: var(--claro2);
+}
+
+.sedes-inscripcion-img {
+  border-radius: 50%;
+}
+
+.boton {
+  background-color: var(--oscuro2);
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-bottom: 15px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: var(--claro1);
+  color: var(--oscuro1);
+  border: 1px var(--oscuro1) solid;
+}
+
+.red-social {
+  display: flex;
+}
+
+.red-social i {
+  margin: 5px 10px;
+  font-size: 25px;
+}
+
+.zoom {
+  position: block;
+  font-size: 4em;
+  background-color: var(--claro1);
+  border-radius: 50%;
+  transition: transform 0.2s; /* Animation */
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--oscuro2);
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.banner {
+  align-self: flex-start;
+}

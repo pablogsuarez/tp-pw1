@@ -1,0 +1,99 @@
+.contenedor {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contenedor .buscar {
+  width: 100%;
+  border: 1px var(--oscuro1) solid;
+  /* padding: 10px; */
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: var(--claro1);
+}
+
+.contenedor h1,
+.buscar {
+  margin: 30px auto;
+}
+
+.search-icon,
+.buscar input::placeholder,
+input {
+  display: inline-block;
+  margin: 10px;
+  font-size: 20px;
+  color: #000;
+}
+
+.buscar input {
+  width: 90%;
+  outline: none;
+  background-color: var(--claro1);
+}
+
+.buscar input::placeholder {
+  font-size: 20px;
+}
+
+.card,
+.card-establecimiento {
+  display: flex;
+  width: 60%;
+  /* background-color: var(--claro2); */
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.card-establecimiento {
+  width: 100%;
+}
+
+.card img {
+  width: 400px;
+  height: 250px;
+  border: 1px #000 solid;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.card-info p {
+  margin-bottom: 15px;
+}
+
+.calendario {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.calendario a {
+  margin-top: 10px;
+}
+
+.mes,
+.proximos-cursos {
+  /* background-color: var(--claro2); */
+  border-radius: 30px;
+  margin: 20px 20px;
+}
+
+.card-establecimiento img {
+  width: 500px;
+  height: 300px;
+  border: 1px #000 solid;
+  border-radius: 10px;
+  object-fit: contain;
+}

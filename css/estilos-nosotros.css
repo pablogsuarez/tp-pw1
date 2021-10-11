@@ -1,0 +1,33 @@
+.institucional {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    padding: 2% 5%;
+}
+
+.institucional article div {
+    text-align: center;
+    margin: 0 1em;
+}
+
+.institucional .profesor-descripcion {
+    width: 20em;
+}
+
+.profesores {
+    font-size: 8em;
+}
+
+.profesor-nombre {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.profesor-descripcion {
+    background-color: var(--claro1);
+    border-radius: 10px;
+}
+
+

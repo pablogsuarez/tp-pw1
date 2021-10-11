@@ -1,0 +1,113 @@
+#buscador {
+  display: inline;
+  margin-right: 400px;
+}
+
+h2 {
+  font-weight: 900;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+#contactos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  width: calc(50%, -10px);
+}
+#iconos {
+  font-size: 30px;
+}
+
+#iconos a {
+  margin-left: 10px;
+  color: var(--oscuro1);
+}
+
+#iconos a:hover {
+  color: var(--oscuro2);
+}
+#ubicacion {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+#mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#seccion2 h2 {
+  text-align: center;
+}
+
+iframe {
+  width: 90%;
+  height: 350px;
+  margin-bottom: 100px;
+}
+
+.formulario {
+  width: 130%;
+  background-color: var(--oscuro1);
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--fondo);
+  box-shadow: 7px 13px 37px #000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.formulario h4 {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+.controls {
+  width: 100%;
+  background: var(--oscuro2);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid --claro2;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-size: 18px;
+  color: var(--fondo);
+}
+.botons {
+  width: 30%;
+  background: var(--alernativo1);
+  border: none;
+  position: relative;
+  left: 346px;
+  padding: 15px;
+  color: var(--fondo);
+  /* margin: 16px 0; */
+  font-size: 16px;
+}
+
+.botons:hover {
+  background: var(--alternativo2);
+}
+
+#search {
+  width: 500px;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-right: 0;
+}
+
+.buscar {
+  margin-right: 30px;
+}
+
+.buscar span {
+  background-color: var(--oscuro2);
+  padding: 14px;
+  border-radius: 10px;
+  margin-left: -15px;
+}
